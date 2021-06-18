@@ -1,16 +1,27 @@
 # ShipNames
 Enter a file of characters' names and get their ship names!
 //Make a file with a list of characters, change "FileNameGoesHere" to the name of that file, and hit run. If you don't want it to randomly generate the names, and instead match the characters and leave a space for you to write it yourself, change "boolean randomize = true;" to boolean randomize = false;" :)
+
 import java.text.*;
+
 import java.util.ArrayList;
+
 import java.util.Arrays;
+
 import java.util.Scanner;
+
 import java.util.TreeMap;
+
 import java.util.TreeSet;
+
 import java.math.*;
+
 import static java.lang.System.*;
+
 import java.io.File;
+
 public class ShipNames
+
 {
 	public void run() throws Exception
 	{
